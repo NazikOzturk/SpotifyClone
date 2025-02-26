@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify Klon</title>
+
+    <!-- CSS -->
+
+    <link rel="stylesheet" href="./style/style.css" />
+
+    <!-- BS Icons -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+  </head>
+  <body>
+    <div class="layout">
+      <!-- Yan alan -->
+      <aside>
+        <figure>
+          <img src="./image/no-text-logo.png" alt="" />
+          <span>Spotify</span>
+        </figure>
+
+        <nav>
+          <a href="#">
+            <i class="bi bi-house"></i>
+            <span>AnaSayfa</span>
+          </a>
+          <a href="#">
+            <i class="bi bi-search"></i>
+            <span>Arama</span>
+          </a>
+          <a href="#">
+            <i class="bi bi-collection"></i>
+            <span>Kütüphane</span>
+          </a>
+          <a href="#">
+            <i class="bi bi-music-note-list"></i>
+            <span>Çalma Listeleri</span>
+          </a>
+          <a href="#">
+            <i class="bi bi-heart"></i>
+            <span>Beğenilen Şarkılar</span>
+          </a>
+        </nav>
+      </aside>
+      <!-- Ana Alan -->
+      <main>
+        <header>
+          <form>
+            <input type="search" placeholder="müzik arayınız" />
+            <button type="submit"><i class="bi bi-search"></i></button>
+          </form>
+          <nav>
+            <span>Premium</span>
+            <span>Destek</span>
+            <span>Oturum Aç</span>
+          </nav>
+        </header>
+        <section>
+          <h2 id="title">Popüler Müzikler</h2>
+          <div class="list">
+            <div class="card">
+              <figure>
+                <img src="" alt="" />
+                <div class="play">
+                  <i class="bi bi-play-fill"></i>
+                </div>
+              </figure>
+              <div class="card-info">
+                <h4></h4>
+                <h4></h4>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+    <div class="player">
+      <!-- Info -->
+      <div class="info">
+        <img
+          src="https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e5/4a/26/e54a26c4-fcce-b763-bea5-901a821ddb49/859720717961_cover.jpg/400x400cc.jpg"
+          alt=""
+        />
+        <div>
+          <h5>Rumors</h5>
+          <p>NEFFEX</p>
+        </div>
+      </div>
+
+      <!-- Audio -->
+      <audio
+        src="https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/b9/f2/c7/b9f2c7fb-854a-1f7a-b994-764d6d78f1e5/mzaf_11066314483681198504.plus.aac.ep.m4a"
+        controls
+      ></audio>
+
+      <!-- Right -->
+      <div class="icons">
+        <i class="bi bi-music-note-list"></i>
+        <i class="bi bi-boombox"></i>
+        <i class="bi bi-pc-display"></i>
+      </div>
+    </div>
+    <script src="./js/main.js" type="module"></script>
+  </body>
+</html>
